@@ -9,7 +9,7 @@ package Arrays;
  * <p>Binary search is an efficient algorithm for finding an element
  * in a sorted array by repeatedly dividing the search interval in half.
  * 
- * @author Your Name
+ * @SebaDevCom
  * @version 1.0
  * @since 2026-03-21
  */
