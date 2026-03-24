@@ -553,7 +553,11 @@ public class DoublyLinkedList<T> implements Iterable<T> {
             intList.addLast(i);
         }
         System.out.println("Integer list: " + intList);
-        System.out.println("Sum of all elements: " + intList.stream().mapToInt(Integer::intValue).sum());
+        int sum = 0;
+        for (Integer num : intList) {
+            sum += num;
+        }
+        System.out.println("Sum of all elements: " + sum);
         
         // Test 9: Remove by value
         System.out.println("\nTest 9: Remove by Value");
